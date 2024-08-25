@@ -3,11 +3,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Carregar dados do arquivo CSV usando o caminho fornecido
-file_path = r"C:\Users\01002452\OneDrive - Faculdade São Leopoldo Mandic\Área de Trabalho\PYTHON\amazon.csv"
-data = pd.read_csv(file_path, encoding='latin1')
+# Carregar dados do arquivo CSV
+data = pd.read_csv("amazon.csv")
 
-# Título da Aplicação
+# Título
 st.title('Análise de Incêndios Florestais no Brasil')
 
 # Exibição da tabela de dados
